@@ -171,11 +171,10 @@ namespace Home3
         {
             Console.WriteLine("Please type your name");
             string s1 = Console.ReadLine();
-            Array arr = s1.ToArray();
-            Array.Reverse(arr);
-            string s2 = arr.ToString();
-            Console.WriteLine(s2);// i give up...i realy don't kow
-            ///System.Char[]                      
+            char[] ch = s1.ToCharArray();//to reverse something with array, use """""chars"""""
+            Array.Reverse(ch);
+            var s2 = new string(ch);
+            Console.WriteLine(s2);
         }
 
     }
@@ -264,33 +263,37 @@ namespace Home3
     /// empty or includes less than 5 numbers, display "Invalid List" and ask the user to re-try; otherwise, display 
     /// the 3 smallest numbers in the list.
     /// </summary>
-    /* public class RecapProblem09
+     public class RecapProblem09
      {
          public void Problem09()
          {
-             var numbers = new List<int>();
-             int rawNumber;
-                 Console.WriteLine("Enter a list of numbers separated by commas");
-                 var input = Console.ReadLine();
-             string [] s1 =  input.Split(',');
-             bool check = int.TryParse(input, out rawNumber);
-             if(check == true)
-             {
-                 List<int> n1 = numbers.ToList();
-                 n1.Add(s1);//nu stiu
+           
+                Console.WriteLine("Enter a list of numbers separated by commas: ");
+                var input = Console.ReadLine();
 
-             }
+                if (string.IsNullOrEmpty(input))
+                    Console.WriteLine("The list cannot be empty or null. Please retry");
+                else
+                {
+                    var nn = input.Split((',')).Select(s => Convert.ToInt32(s.Trim())).ToList();
+                var numbers = nn;
+                    numbers.Sort();
+                    if (numbers.Count < 5)
+                        Console.WriteLine("Invalid list, has less than 5 numbers. Please retry.");
+                    else
+                    {
+                        var smallestThreeNumbers = new List<int>();
+                        for (var i = 0; i < 3; i++)
+                            smallestThreeNumbers.Add(numbers[i]);
 
-             if(string.IsNullOrEmpty(input) || n1.Count < 5)
-             {
-                 Console.WriteLine("Invalid");
-             }
-
-
+                        smallestThreeNumbers.ForEach(Console.WriteLine);
+                    }
+                }
+                                  
          }
 
 
-     }*/
+     }
     //## Loops
     /// <summary>
     /// Write a program to count how many numbers between 1 and 100 are divisible by 3 with no remainder. 
@@ -333,15 +336,13 @@ namespace Home3
             {
 
                 string num = Console.ReadLine();
+                int num2 = Convert.ToInt32(num[0]);
                 int random = 0;
                 if (num == "ok")
                 {
-                    int num2 = Convert.ToInt32(num[0]);
-                    char[] ch = num.ToCharArray();
-
-
-                    for (int i = 0; i < num.Length; i++)
-                    {
+                    
+                    for (int i = 0; i < numberList.Count; i++)
+                    {                                                                      
                         random = num2 + num2;
                         Console.WriteLine(random);// stuck
                     }
@@ -358,7 +359,7 @@ namespace Home3
             } while (true);
 
         }
-
+      
 
     }
     /// <summary>

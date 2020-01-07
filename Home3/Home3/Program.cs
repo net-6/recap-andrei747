@@ -20,7 +20,7 @@ namespace Home3
             //recap4.Problem4();
             // var recap5 = new RecapProblem05();
             // recap5.Problem5();
-            //var recap6 = new RecapProblem06();
+           // var recap6 = new RecapProblem06();
             // recap6.Problem06();
             // var recap7 = new RecapProblem07();
             //recap7.Problem07();

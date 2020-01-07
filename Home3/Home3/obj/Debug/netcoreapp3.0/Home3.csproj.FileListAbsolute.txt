@@ -9,3 +9,14 @@ D:\Homework\basics-andrei747\recap\Home3\Home3\obj\Debug\netcoreapp3.0\Home3.Ass
 D:\Homework\basics-andrei747\recap\Home3\Home3\obj\Debug\netcoreapp3.0\Home3.AssemblyInfo.cs
 D:\Homework\basics-andrei747\recap\Home3\Home3\obj\Debug\netcoreapp3.0\Home3.dll
 D:\Homework\basics-andrei747\recap\Home3\Home3\obj\Debug\netcoreapp3.0\Home3.pdb
+D:\Homework\basics-andrei747\recap\recap-andrei747\Home3\Home3\bin\Debug\netcoreapp3.0\Home3.exe
+D:\Homework\basics-andrei747\recap\recap-andrei747\Home3\Home3\bin\Debug\netcoreapp3.0\Home3.deps.json
+D:\Homework\basics-andrei747\recap\recap-andrei747\Home3\Home3\bin\Debug\netcoreapp3.0\Home3.runtimeconfig.json
+D:\Homework\basics-andrei747\recap\recap-andrei747\Home3\Home3\bin\Debug\netcoreapp3.0\Home3.runtimeconfig.dev.json
+D:\Homework\basics-andrei747\recap\recap-andrei747\Home3\Home3\bin\Debug\netcoreapp3.0\Home3.dll
+D:\Homework\basics-andrei747\recap\recap-andrei747\Home3\Home3\bin\Debug\netcoreapp3.0\Home3.pdb
+D:\Homework\basics-andrei747\recap\recap-andrei747\Home3\Home3\obj\Debug\netcoreapp3.0\Home3.csprojAssemblyReference.cache
+D:\Homework\basics-andrei747\recap\recap-andrei747\Home3\Home3\obj\Debug\netcoreapp3.0\Home3.AssemblyInfoInputs.cache
+D:\Homework\basics-andrei747\recap\recap-andrei747\Home3\Home3\obj\Debug\netcoreapp3.0\Home3.AssemblyInfo.cs
+D:\Homework\basics-andrei747\recap\recap-andrei747\Home3\Home3\obj\Debug\netcoreapp3.0\Home3.dll
+D:\Homework\basics-andrei747\recap\recap-andrei747\Home3\Home3\obj\Debug\netcoreapp3.0\Home3.pdb

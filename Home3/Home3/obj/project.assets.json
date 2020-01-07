@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Homework\\basics-andrei747\\recap\\Home3\\Home3\\Home3.csproj",
+      "projectUniqueName": "D:\\Homework\\basics-andrei747\\recap\\recap-andrei747\\Home3\\Home3\\Home3.csproj",
       "projectName": "Home3",
-      "projectPath": "D:\\Homework\\basics-andrei747\\recap\\Home3\\Home3\\Home3.csproj",
+      "projectPath": "D:\\Homework\\basics-andrei747\\recap\\recap-andrei747\\Home3\\Home3\\Home3.csproj",
       "packagesPath": "C:\\Users\\Andrei\\.nuget\\packages\\",
-      "outputPath": "D:\\Homework\\basics-andrei747\\recap\\Home3\\Home3\\obj\\",
+      "outputPath": "D:\\Homework\\basics-andrei747\\recap\\recap-andrei747\\Home3\\Home3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andrei\\AppData\\Roaming\\NuGet\\NuGet.Config",
