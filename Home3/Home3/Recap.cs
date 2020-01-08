@@ -330,35 +330,32 @@ namespace Home3
     {
         public void Problem11()
         {
-            var numberList = new List<int>();
+            /* int random = 0;
+             while (true)
+             {                
+                 var num = Console.ReadLine();
+                 int num2;
+                 bool check = int.TryParse(num, out num2);
+                 if(check = true && num.ToLower() == "ok")
+                 {
+                     random += num2;
+                     Console.WriteLine(random);
+                     break;
+                 }                                             
 
-            do
+             }*/// da zero..de ce? am incercat si alte variante cu convert.tryparse si la fel face 
+                //nu inteleg...vreau explicatii!!!!!!!!!!!!!!!!!!
+            int random = 0;
+            while (true)
             {
-
-                string num = Console.ReadLine();
-                int num2 = Convert.ToInt32(num[0]);
-                int random = 0;
-                if (num == "ok")
-                {
-                    
-                    for (int i = 0; i < numberList.Count; i++)
-                    {                                                                      
-                        random = num2 + num2;
-                        Console.WriteLine(random);// stuck
-                    }
-
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Type numbers");
-                }
-
-
-
-            } while (true);
-
+                String num = Console.ReadLine();
+                if (num.ToLower() == "ok") break;
+                random += Convert.ToInt32(num);
+                Console.WriteLine(random);
+            }
         }
+       
+
       
 
     }
