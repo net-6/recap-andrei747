@@ -493,7 +493,7 @@ namespace Home3
     /// presses Enter without supplying an input, exit immediately; otherwise, check to see if there are 
     /// any duplicates. If so, display "Duplicate" on the console.
     /// </summary>
-   /* public class RecapProblem16
+   public class RecapProblem16
     {
         public void Problem16()
         {
@@ -501,20 +501,27 @@ namespace Home3
             Console.WriteLine("Write some numbers");
             var str = Console.ReadLine();
             var num = str.Split('-');
-            int values = Convert.ToInt32(num[0]);//input not in correct format// nu mai inteleg nimic
+            int values = Convert.ToInt32(num[0]);
             for (int i = 0; i < num.Length; i++)
             {
-                if (string.IsNullOrEmpty(str))
+                if (values == null)
                 {
-                    Environment.Exit(values);
+                    Environment.Exit(values);// nu iese aici cu enter
                 }
                 else
                 {
-                    List<int> numberList = numbers.Distinct().ToList();
-                    if (!numbers.Distinct())//cannot be applied to operand of type List<int> for numberList...nu mai stiu
+                    
+                    for(int j = i + 1; j < num.Length; j++)
                     {
-                        Console.WriteLine("Duplicates");
+                        if(num[i] == num[j])
+                        {
+                            Console.WriteLine("Duplicates");
+                        }
                     }
+                        
+                            
+                        
+                    
                 }
 
                 numbers.Add(values);
@@ -523,7 +530,7 @@ namespace Home3
 
         }
 
-    }*/
+    }
 
     /// <summary>
     /// Write a program and ask the user to enter a time value in the 24-hour time format (e.g. 19:00).

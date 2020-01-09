@@ -40,10 +40,10 @@ namespace Home3
             // recap14.Problem14();
             // var recap15 = new RecapProblem15();
             // recap15.Problem15();
-            //var recap16 = new RecapProblem16();
-            // recap16.Problem16();
-            var recap17 = new RecapProblem17();
-            recap17.Problem17();
+            var recap16 = new RecapProblem16();
+             recap16.Problem16();
+            //var recap17 = new RecapProblem17();
+           // recap17.Problem17();
            // var recap18 = new RecapProblem18();
            // recap18.Problem18();
            // var recap19 = new RecapProblem19();
