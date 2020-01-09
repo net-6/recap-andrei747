@@ -534,22 +534,31 @@ namespace Home3
     {
         public void Problem17()
         {
-            Console.WriteLine("Write a time value");
-            string date = Console.ReadLine();
-            string date0 = Console.ReadLine();
-            int date1 = Convert.ToInt32(date[0]);
-            int date2 = Convert.ToInt32(date0[0]);
-            int datehour = 23;
-            int datemin = 59;
-            if (date1 <= datehour && date2 <= datemin)
+            Console.WriteLine("Type a time value between 00:00 and 23:59");
+            var input = Console.ReadLine();
+            var components = input.Split(':');
+            if (string.IsNullOrEmpty(input))
             {
-                Console.WriteLine($" UTC time {date:HH:mm} = UTC time {date0:HH:mm}" + "Ok");
-            }
-            else
-            {
-                Console.WriteLine("Invalid time");///doesn't work...i don't know..in progress
+                Console.WriteLine("Invalid Time");
             }
             
+            else
+            {
+                int hour = Convert.ToInt32(components[0]);
+                int  minute = Convert.ToInt32(components[1]);
+                if(hour >=0 && hour <= 23 && minute >=0 && minute <= 59)
+                {
+                    Console.WriteLine("ok");
+                }
+                else
+                {
+                    Console.WriteLine("Invalid Time");
+                }
+            }
+          
+
+
+
         }
 
     }

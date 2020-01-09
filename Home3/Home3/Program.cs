@@ -30,8 +30,8 @@ namespace Home3
             // recap9.Problem09();
             // var recap10 = new RecapProblem10();
             // recap10.Problem10();
-             var recap11 = new RecapProblem11();
-             recap11.Problem11();
+            // var recap11 = new RecapProblem11();
+            // recap11.Problem11();
             // var recap12 = new RecapProblem12();
             // recap12.Problem12();
             //var recap13 = new RecapProblem13();
@@ -42,8 +42,8 @@ namespace Home3
             // recap15.Problem15();
             //var recap16 = new RecapProblem16();
             // recap16.Problem16();
-            //var recap17 = new RecapProblem17();
-            //recap17.Problem17();
+            var recap17 = new RecapProblem17();
+            recap17.Problem17();
            // var recap18 = new RecapProblem18();
            // recap18.Problem18();
            // var recap19 = new RecapProblem19();
